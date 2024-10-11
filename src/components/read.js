@@ -1,4 +1,5 @@
-import Movies from './movies'
+import Movies from './movies';
+
 
 //Added read component
 const Read = () => {
