@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import Content from './components/content';
 import Read from './components/read';
 import Create from './components/create';
+import Movies from './components/movies';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Content />} />
         <Route path="/read" element={<Header></Header>} />
         <Route path="/create" element={<Footer></Footer>} />
+        <Route path="/movies" element={<Content/>} />
       </Routes>
       <Footer />
     </Router>
