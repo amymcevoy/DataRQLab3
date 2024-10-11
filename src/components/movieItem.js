@@ -1,8 +1,8 @@
-const MovieItem = () =>{
+const MovieItem = (props) =>{
 
     return(
         <div>
-            <h3>hello from movie item</h3>
+            <h3>{props.myMovie.Title}</h3>
         </div>
     );
 }
