@@ -6,6 +6,13 @@ function MovieItem(props) {
       console.log("Movie Item:", props.myMovie);
     }, [props.myMovie]);
 
+    useEffect(
+        ()=>{
+            //connect with API
+        },[]
+    );
+
+    //Display movie title,poster and year on cards
     return(
         <div>
            <Card>
